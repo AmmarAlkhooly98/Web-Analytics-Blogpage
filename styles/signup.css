@@ -14,7 +14,7 @@ body {
   background-position: center;
 }
 
-.container form {
+#sign-up-form {
   /* margin: 10em 16em 0 16em; */
   background-color: white;
   padding: 1em;
@@ -22,7 +22,6 @@ body {
 
 .container {
   padding: 10em;
-
 }
 
 /* Full-width input fields */
