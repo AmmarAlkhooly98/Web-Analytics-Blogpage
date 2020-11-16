@@ -14,11 +14,15 @@ body {
   background-position: center;
 }
 
-/* Add padding to containers */
-.container {
-  margin: 10em 16em 0 16em;
-  padding: 20px;
+.container form {
+  /* margin: 10em 16em 0 16em; */
   background-color: white;
+  padding: 1em;
+}
+
+.container {
+  padding: 10em;
+
 }
 
 /* Full-width input fields */

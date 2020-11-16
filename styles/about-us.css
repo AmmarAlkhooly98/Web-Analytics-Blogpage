@@ -5,6 +5,10 @@
 	font-family: sans-serif;
 }
 
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   background: 
 	  radial-gradient(black 3px, transparent 4px),
@@ -20,7 +24,7 @@ body {
 
 h1 {
   font-family: 'Carter One', cursive;
-  margin-top: 7vh;
+  padding-top: 17vh;
   text-align: center;
   font-size: 50px;
 }

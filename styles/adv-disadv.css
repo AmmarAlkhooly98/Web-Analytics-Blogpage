@@ -5,6 +5,7 @@
 	padding: 0;
 	font-family: sans-serif;
 }
+
 body {
 	background: 
 		radial-gradient(black 3px, transparent 4px),
@@ -17,6 +18,7 @@ body {
   background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
 }
 .header {
+	padding-top: 4em;
 	background-image: linear-gradient(to top left, rgba(49,125,190,0.97), rgba(79,176,182,0.97));
 }
 

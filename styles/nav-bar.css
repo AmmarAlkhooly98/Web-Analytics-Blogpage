@@ -7,7 +7,8 @@
 	align-items: center;
   justify-content: space-between;
   background-color:#04010f;
-  float: center;
+	float: center;
+	position: fixed;
 }
 
 .logo {
