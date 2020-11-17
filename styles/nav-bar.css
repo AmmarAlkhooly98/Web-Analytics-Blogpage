@@ -15,7 +15,12 @@
 .logo {
 	width: 3em;
   cursor: inline-block;
-  padding-left: 6vw;
+  padding-left: 4vw;
+}
+
+.navbar h2 {
+	color: aliceblue; 
+	transform: translate(-70px, 0px);
 }
 
 .navbar ul li {
@@ -25,7 +30,7 @@
 	position: relative;
 }
 .navbar ul li:last-child {
-  padding-right: 6vw;
+  padding-right: 2vw;
 }
 
 .navbar ul li a {
