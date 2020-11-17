@@ -9,6 +9,7 @@
   background-color:#04010f;
 	float: center;
 	position: fixed;
+	z-index: 1;
 }
 
 .logo {
