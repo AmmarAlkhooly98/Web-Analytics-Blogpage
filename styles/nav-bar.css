@@ -40,17 +40,17 @@
 	text-transform: uppercase;
 }
 
-.navbar ul li ::after {
+
+.navbar ul li::after {
 	content: '';
 	height: 0px;
 	width: 0%;
-	background: #009688;
-	position: relative;
-	left: 0;
-	bottom: 0px;
 	transition: 0.5s;
 }
 
-.navbar ul li:hover::after {
+.navbar ul li:hover {
+	display: inline;
+	background-color: rgba(249, 178, 14, 0.571);
 	width: 100%;
+	text-decoration: underline;
 }
