@@ -15,9 +15,10 @@ body {
 }
 
 #sign-up-form {
-  /* margin: 10em 16em 0 16em; */
+  margin: auto;
   background-color: white;
-  padding: 1em;
+  padding: 1.5em;
+  max-width: 600px;
 }
 
 .container {

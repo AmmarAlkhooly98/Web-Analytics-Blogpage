@@ -49,13 +49,13 @@ p {
 }
 
 .banner {
-	position: fixed;
+	position: sticky;
 	top: 200px;
 	right: 30px;
 }
 
 .banner-2 {
-	position: fixed;
+	position: sticky;
 	top: 200px;
 	left: 30px;
 }

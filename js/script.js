@@ -7,5 +7,10 @@ const signUp = () => {
   var target = document.querySelector('#usr-inserted-name');
   const content = target.innerHTML;
 
-  target.innerHTML = `Welcome, ${storedName.toString()}`;
+  if(storedName.length){
+    target.innerHTML = `Welcome, ${storedName.toString()}`;
+  }
+  else {
+    target.innerHTML = "Plese enter your name above.";
+  }
 }
