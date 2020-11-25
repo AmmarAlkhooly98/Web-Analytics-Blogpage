@@ -10,9 +10,10 @@ const fetchName = () => {
 }
 
 const signUp = () => {
+  //get the value from user input
   var name = document.getElementById("usr-name").value;
+  //set value to local storage area
   window.localStorage.setItem('userName', name)
-  // Get the element you want to add your new element before or after
   fetchName()
 }
 
