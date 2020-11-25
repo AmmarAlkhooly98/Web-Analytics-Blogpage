@@ -1,12 +1,6 @@
-
-const signUp = () => {
-  let name = document.getElementById("usr-name").value;
-  window.localStorage.setItem('userName', name)
+const fetchName = () => {
+  let target = document.getElementById('usr-inserted-name');
   let storedName = localStorage.getItem('userName')
-  // Get the element you want to add your new element before or after
-  var target = document.querySelector('#usr-inserted-name');
-  const content = target.innerHTML;
-
   if(storedName.length){
     target.innerHTML = `Welcome, ${storedName.toString()}`;
   }
@@ -14,3 +8,12 @@ const signUp = () => {
     target.innerHTML = "Plese enter your name above.";
   }
 }
+
+const signUp = () => {
+  var name = document.getElementById("usr-name").value;
+  window.localStorage.setItem('userName', name)
+  // Get the element you want to add your new element before or after
+  fetchName()
+}
+
+window.onload = () => fetchName()
