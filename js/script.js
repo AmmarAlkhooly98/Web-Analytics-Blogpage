@@ -17,4 +17,5 @@ const signUp = () => {
   fetchName()
 }
 
+//this will fetch from local storage after every page refresh
 window.onload = () => fetchName()
