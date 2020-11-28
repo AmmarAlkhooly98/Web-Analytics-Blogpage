@@ -60,5 +60,5 @@ const logOut = () => {
   signUpForm.style.display = 'block';
 }
 
-//this will fetch from local storage after every page refresh
+// This will call the fetchName function after every page refresh
 window.onload = () => fetchName()
